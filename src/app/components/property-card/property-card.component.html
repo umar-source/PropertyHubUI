@@ -1,0 +1,24 @@
+<div class="card" (mouseover)="showButtons = true" (mouseleave)="showButtons = false">
+  <div class="card-img-container">
+    <img src="assets/images/{{property?.image}}" class="card-img-top" alt="...">
+
+  <!-- <img *ngIf="!property?.image" src="assets/images/home.png" class="card-img-top" alt="...">  //This is for default image -->
+    
+    <div class="buttons" *ngIf="showButtons">
+      <button class="btn btn-primary" [routerLink]="['/property-details', property?.Id]" >Edit</button>
+      <button class="btn btn-secondary" [routerLink]="['/property-details/{{property.Id}}']" >Details</button>
+    </div>
+  </div>
+
+  <div class="card-body">
+    <h4 class="card-title">{{property?.propertytype}}</h4>
+    <div class="property-details">
+      <p>{{property?.address}}</p>
+      <p>{{property?.FurnishType}}</p>
+    </div>
+    <div class="price-area">
+      <p><strong>Price:</strong> <span id="price">{{property?.Price}}</span></p>
+      <p><strong>Area:</strong> <span id="area">{{property?.Area}}</span> sq.ft</p>
+    </div>
+  </div>
+</div>

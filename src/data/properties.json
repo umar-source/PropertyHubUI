@@ -1,0 +1,75 @@
+[
+    {
+       "Id" : 1,
+      "propertytype": "Apartment",
+      "address": "123 Main St, Cityville",
+      "FurnishType": "Fully Furnished",
+      "Price": "$1,200/month",
+      "Area": "800 sq ft",
+      "image":"image3.png"
+    },
+    {
+        "Id" : 2,
+      "propertytype": "House",
+      "address": "456 Oak Ave, Suburbia",
+      "FurnishType": "Unfurnished",
+      "Price": "$2,500/month",
+      "Area": "1500 sq ft",
+      "image":"house.png"
+    },
+    {
+        "Id" : 3,
+      "propertytype": "Condo",
+      "address": "789 Pine Rd, Metropolis",
+      "FurnishType": "Partially Furnished",
+      "Price": "$1,800/month",
+      "Area": "1000 sq ft",
+      "image":"image3.png"
+    },
+    {
+        "Id" : 4,
+      "propertytype": "Studio",
+      "address": "101 Elm Lane, Townsville",
+      "FurnishType": "Furnished",
+      "Price": "$900/month",
+      "Area": "500 sq ft",
+      "image":"house.png"
+    },
+
+    {
+        "Id" : 5,
+      "propertytype": "Townhouse",
+      "address": "303 Cedar Street, Hamlet City",
+      "FurnishType": "Partially Furnished",
+      "Price": "$1,500/month",
+      "Area": "1100 sq ft",
+      "image":"image4.png"
+    },
+    {
+        "Id" : 6,
+      "propertytype": "Loft",
+      "address": "404 Birch Avenue, Loftsville",
+      "FurnishType": "Unfurnished",
+      "Price": "$1,100/month",
+      "Area": "700 sq ft",
+      "image":"house.png"
+    },
+    {
+        "Id" : 7,
+      "propertytype": "Vacation Home",
+      "address": "555 Holiday Road, Relaxington",
+      "FurnishType": "Fully Furnished",
+      "Price": "$3,000/week",
+      "Area": "2000 sq ft",
+      "image":"image3.png"
+    },  {
+        "Id" : 4,
+      "propertytype": "Duplex",
+      "address": "202 Maple Blvd, Villageland",
+      "FurnishType": "Fully Furnished",
+      "Price": "$2,000/month",
+      "Area": "1200 sq ft",
+      "image":"image4.png"
+    }
+  ]
+  
